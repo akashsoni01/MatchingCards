@@ -58,17 +58,25 @@
 		FF5B275020CD4D65001FD295 /* MatchingCards */ = {
 			isa = PBXGroup;
 			children = (
-				FF5B275120CD4D65001FD295 /* AppDelegate.h */,
-				FF5B275220CD4D65001FD295 /* AppDelegate.m */,
 				FF5B275420CD4D65001FD295 /* ViewController.h */,
 				FF5B275520CD4D65001FD295 /* ViewController.m */,
 				FF5B275720CD4D65001FD295 /* Main.storyboard */,
 				FF5B275A20CD4D65001FD295 /* Assets.xcassets */,
+				FF5B276720CD5122001FD295 /* Supporting Files */,
 				FF5B275C20CD4D65001FD295 /* LaunchScreen.storyboard */,
 				FF5B275F20CD4D65001FD295 /* Info.plist */,
 				FF5B276020CD4D65001FD295 /* main.m */,
 			);
 			path = MatchingCards;
+			sourceTree = "<group>";
+		};
+		FF5B276720CD5122001FD295 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B275120CD4D65001FD295 /* AppDelegate.h */,
+				FF5B275220CD4D65001FD295 /* AppDelegate.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

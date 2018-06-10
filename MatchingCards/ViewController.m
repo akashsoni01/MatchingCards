@@ -27,4 +27,15 @@
 }
 
 
+- (IBAction)touchCard:(UIButton *)sender {
+    if ([sender.currentTitle length]){
+        UIImage *cardImage = [UIImage imageNamed:@"back1"];
+        [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
+        [sender setTitle:@"" forState:UIControlStateNormal];
+    }else{
+        UIImage *cardImage = [UIImage imageNamed:@"front"];
+        [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
+        [sender setTitle:@"A♣︎" forState:UIControlStateNormal];
+    }
+}
 @end
