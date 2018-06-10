@@ -9,11 +9,16 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *flipLabel;
+@property (nonatomic) int flipCount;
 @end
 
 @implementation ViewController
-
+- (void)setFlipCount:(int)flipCount{
+    _flipCount = flipCount;
+    self.flipLabel.text = [NSString stringWithFormat:@"Flip counts: %d",flipCount];
+    NSLog(@"flip count = %d",self.flipCount);
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -37,5 +42,6 @@
         [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
         [sender setTitle:@"A♣︎" forState:UIControlStateNormal];
     }
+    self.flipCount++;
 }
 @end

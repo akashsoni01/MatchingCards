@@ -13,6 +13,7 @@
 		FF5B275B20CD4D65001FD295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5B275A20CD4D65001FD295 /* Assets.xcassets */; };
 		FF5B275E20CD4D65001FD295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5B275C20CD4D65001FD295 /* LaunchScreen.storyboard */; };
 		FF5B276120CD4D65001FD295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B276020CD4D65001FD295 /* main.m */; };
+		FF5B276A20CD6871001FD295 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B276920CD6871001FD295 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FF5B275D20CD4D65001FD295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF5B275F20CD4D65001FD295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF5B276020CD4D65001FD295 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF5B276820CD6871001FD295 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		FF5B276920CD6871001FD295 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +64,9 @@
 				FF5B275420CD4D65001FD295 /* ViewController.h */,
 				FF5B275520CD4D65001FD295 /* ViewController.m */,
 				FF5B275720CD4D65001FD295 /* Main.storyboard */,
+				FF5B276B20CD6886001FD295 /* Model */,
 				FF5B275A20CD4D65001FD295 /* Assets.xcassets */,
 				FF5B276720CD5122001FD295 /* Supporting Files */,
-				FF5B275C20CD4D65001FD295 /* LaunchScreen.storyboard */,
-				FF5B275F20CD4D65001FD295 /* Info.plist */,
-				FF5B276020CD4D65001FD295 /* main.m */,
 			);
 			path = MatchingCards;
 			sourceTree = "<group>";
@@ -73,10 +74,22 @@
 		FF5B276720CD5122001FD295 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF5B275F20CD4D65001FD295 /* Info.plist */,
+				FF5B275C20CD4D65001FD295 /* LaunchScreen.storyboard */,
+				FF5B276020CD4D65001FD295 /* main.m */,
 				FF5B275120CD4D65001FD295 /* AppDelegate.h */,
 				FF5B275220CD4D65001FD295 /* AppDelegate.m */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF5B276B20CD6886001FD295 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B276820CD6871001FD295 /* Card.h */,
+				FF5B276920CD6871001FD295 /* Card.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 				FF5B275620CD4D65001FD295 /* ViewController.m in Sources */,
 				FF5B276120CD4D65001FD295 /* main.m in Sources */,
 				FF5B275320CD4D65001FD295 /* AppDelegate.m in Sources */,
+				FF5B276A20CD6871001FD295 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
