@@ -14,6 +14,7 @@
 		FF5B275E20CD4D65001FD295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5B275C20CD4D65001FD295 /* LaunchScreen.storyboard */; };
 		FF5B276120CD4D65001FD295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B276020CD4D65001FD295 /* main.m */; };
 		FF5B276A20CD6871001FD295 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B276920CD6871001FD295 /* Card.m */; };
+		FF5B276E20CD6D97001FD295 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B276D20CD6D97001FD295 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		FF5B276020CD4D65001FD295 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF5B276820CD6871001FD295 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		FF5B276920CD6871001FD295 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		FF5B276C20CD6D97001FD295 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		FF5B276D20CD6D97001FD295 /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		FF5B275020CD4D65001FD295 /* MatchingCards */ = {
 			isa = PBXGroup;
 			children = (
+				FF5B275F20CD4D65001FD295 /* Info.plist */,
 				FF5B275420CD4D65001FD295 /* ViewController.h */,
 				FF5B275520CD4D65001FD295 /* ViewController.m */,
 				FF5B275720CD4D65001FD295 /* Main.storyboard */,
@@ -74,7 +78,6 @@
 		FF5B276720CD5122001FD295 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF5B275F20CD4D65001FD295 /* Info.plist */,
 				FF5B275C20CD4D65001FD295 /* LaunchScreen.storyboard */,
 				FF5B276020CD4D65001FD295 /* main.m */,
 				FF5B275120CD4D65001FD295 /* AppDelegate.h */,
@@ -88,6 +91,8 @@
 			children = (
 				FF5B276820CD6871001FD295 /* Card.h */,
 				FF5B276920CD6871001FD295 /* Card.m */,
+				FF5B276C20CD6D97001FD295 /* Deck.h */,
+				FF5B276D20CD6D97001FD295 /* Deck.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5B276E20CD6D97001FD295 /* Deck.m in Sources */,
 				FF5B275620CD4D65001FD295 /* ViewController.m in Sources */,
 				FF5B276120CD4D65001FD295 /* main.m in Sources */,
 				FF5B275320CD4D65001FD295 /* AppDelegate.m in Sources */,
