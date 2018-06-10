@@ -15,6 +15,7 @@
 		FF5B276120CD4D65001FD295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B276020CD4D65001FD295 /* main.m */; };
 		FF5B276A20CD6871001FD295 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B276920CD6871001FD295 /* Card.m */; };
 		FF5B276E20CD6D97001FD295 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B276D20CD6D97001FD295 /* Deck.m */; };
+		FF5B277120CD7DE4001FD295 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B277020CD7DE4001FD295 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		FF5B276920CD6871001FD295 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		FF5B276C20CD6D97001FD295 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		FF5B276D20CD6D97001FD295 /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		FF5B276F20CD7DE4001FD295 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		FF5B277020CD7DE4001FD295 /* PlayingCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				FF5B276920CD6871001FD295 /* Card.m */,
 				FF5B276C20CD6D97001FD295 /* Deck.h */,
 				FF5B276D20CD6D97001FD295 /* Deck.m */,
+				FF5B276F20CD7DE4001FD295 /* PlayingCard.h */,
+				FF5B277020CD7DE4001FD295 /* PlayingCard.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5B277120CD7DE4001FD295 /* PlayingCard.m in Sources */,
 				FF5B276E20CD6D97001FD295 /* Deck.m in Sources */,
 				FF5B275620CD4D65001FD295 /* ViewController.m in Sources */,
 				FF5B276120CD4D65001FD295 /* main.m in Sources */,

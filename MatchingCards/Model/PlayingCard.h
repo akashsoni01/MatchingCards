@@ -1,5 +1,5 @@
 //
-//  Deck.h
+//  PlayingCard.h
 //  MatchingCards
 //
 //  Created by Akash soni on 6/10/18.
@@ -7,10 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Card.h"
-@interface Deck : NSObject
-- (void)addCard:(Card *)card atTop:(BOOL)atTop;
-- (void)addCard:(Card *)card;
 
-- (Card *)drawRandomCard;
+@interface PlayingCard : NSObject
+
 @end
